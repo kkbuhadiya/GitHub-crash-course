@@ -1,3 +1,17 @@
-const age = 30;
-const name = "keshav buhadiya";
-const mobiel = 7845123690;
+// methord and super
+
+class Myname {
+    name = "keshav kumar";
+    baseName(){
+        return this.name;
+    }
+}
+
+class subNameClass extends Myname {
+    subName() {
+        return super.baseName();
+    }        
+}
+
+const userName = new subNameClass();
+console.log( userName.subName());
