@@ -38,3 +38,6 @@ console.log(bar.foo0());
 console.log(bar.foo1());
 console.log(bar.foo2());
 console.log(bar.foo3());
+
+let car  = "TATA";
+console.log(` car name is ${car}`);
