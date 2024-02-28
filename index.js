@@ -30,7 +30,6 @@ const bar = {
     foo3(){
         return 3;
     }
-
 }
 
 console.log(bar);
@@ -41,3 +40,8 @@ console.log(bar.foo3());
 
 let car  = "TATA";
 console.log(` car name is ${car}`);
+
+
+function newBranchCheckout() {
+    console.log("new branch function")
+}
