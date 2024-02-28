@@ -41,7 +41,11 @@ console.log(bar.foo3());
 let car  = "TATA";
 console.log(` car name is ${car}`);
 
-
 function newBranchCheckout() {
     console.log("new branch function")
 }
+
+function branchB(){
+    console.log("brancgB");
+}
+
